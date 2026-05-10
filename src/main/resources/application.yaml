@@ -4,7 +4,7 @@ spring:
 
   data:
     mongodb:
-      uri: ${MONGO_URI:mongodb://root:password@localhost:27017/broker_report_db?authSource=admin}
+      uri: ${MONGO_URI:mongodb://localhost:27017/broker_report_db}
       database: broker_report_db
 
   kafka:
